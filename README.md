@@ -1,4 +1,4 @@
-# SCGL copyright
+# SCGL 
 This package is implementing the method in Neural Networks 2021 paper: 
 Incremental multi-view spectral clustering with sparse and connected graph learning. (Please cite this paper)
 Please contact 02713@zjhu.edu.cn if you have any questions.
