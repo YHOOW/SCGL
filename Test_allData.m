@@ -14,8 +14,8 @@ K=numel(unique(groundtruth));  % cluster number
 disp('************start*************');
 
 %% Set parameters
-lambda     = 0.8;
-Neighbor   = 20; 
+lambda     = 1;
+Neighbor   = 16; 
 
 tic
 
