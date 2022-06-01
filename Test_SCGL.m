@@ -19,7 +19,7 @@ for j = 2:v
 %% update consensus similarity matrix W_ast    
     Ft   =spectral_clustering(W_ast,k);  % old spectral embedding
     Ft_1 =spectral_clustering(CW{j},k);   % new spectral embedding
-    W_ast = solve_W(Ft,Ft_1,lambda,mu_1,mu_2);
+    [W_ast,mu_1,mu_2]= solve_W(Ft,Ft_1,lambda,mu_1,mu_2);
 %% obtain the clustering result one by one    
     F       = spectral_clustering((W_ast+W_ast')/2,k);
     if ~isreal(F) 
